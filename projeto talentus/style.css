@@ -1,0 +1,311 @@
+.vendas {
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+.banner {
+    height: 550px;
+    width: 100%;
+}
+
+.imgqs {
+    height: 500px;
+    width: 500px;
+    margin-top: 10px;
+    margin-left: 30px;
+}
+
+#home {
+    font-size: 30px;
+}
+
+#home img {
+    width: 300px;
+    height: 300px;
+}
+
+#quemsomos {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    height: 550px;
+    margin-top: 40px;
+    width: 100%;
+   
+}
+
+#txtqs {
+    align-items: center;
+    display: inline block;
+    justify-content: center;
+    justify-items: center;
+    width: 100%;
+    height: 560px;
+    margin-left: 50px;
+    margin-right: 50px;
+    line-height: 1.5;
+    text-align: justify;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#txtqs h1 {
+    text-align: left;
+    font-size: 35px;
+    margin-bottom: 20px;
+    margin-top: 50px;
+    color: #00AEEE;
+}
+
+#txtqs h2 {
+    text-align: left;
+    font-size: 20px;
+    margin-bottom: 20px;
+    color: black;
+}
+
+.btqs button {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 14px;
+    text-transform: uppercase;
+    font-style: normal;
+    text-decoration: none;
+    line-height: 20px;
+    letter-spacing: 0px;
+    background-color: #001aff6e;
+    border-radius: 5px 5px 5px 5px;
+    padding: 10px 15px 10px 15px;
+}
+
+.btqs #btprofissional {
+    margin-left: 15px;
+}
+
+.btqs {
+    margin-top: 30px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+}
+
+#txtemp {
+    align-items: center;
+    display: inline block;
+    justify-content: center;
+    justify-items: center;
+    width: 100%;
+    height: 560px;
+    margin-left: 50px;
+    margin-right: 50px;
+    line-height: 1.5;
+    text-align: justify;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#txtemp h1 {
+    text-align: left;
+    font-size: 30px;
+    margin-bottom: 15px;
+    margin-top: 50px;
+    color: #00AEEE;
+}
+
+#txtemp h2 {
+    text-align: left;
+    font-size: 20px;
+    margin-bottom: 15px;
+    color: black;
+}
+
+#empresas {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    height: 550px;
+    margin-top: 40px;
+    width: 100%;
+    
+}
+
+.imgemp {
+    height: 500px;
+    width: 500px;
+    margin-top: 10px;
+    margin-left: 30px;
+}
+
+#txtprof {
+    align-items: center;
+    display: inline block;
+    justify-content: center;
+    justify-items: center;
+    width: 100%;
+    height: 560px;
+    margin-left: 50px;
+    margin-right: 50px;
+    line-height: 1.5;
+    text-align: justify;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#txtprof h1 {
+    text-align: left;
+    font-size: 30px;
+    margin-bottom: 15px;
+    margin-top: 50px;
+    color: #00AEEE;
+}
+
+#txtprof h2 {
+    text-align: left;
+    font-size: 20px;
+    margin-bottom: 15px;
+    color: black;
+}
+
+#profissionais {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    height: 550px;
+    margin-top: 40px;
+    width: 100%;
+    
+}
+
+.imgprof {
+    height: 460px;
+    width: 500px;
+    margin-top: 10px;
+    margin-left: 30px;
+}
+
+#txtmerc {
+    align-items: center;
+    display: inline block;
+    justify-content: center;
+    justify-items: center;
+    width: 100%;
+    height: 560px;
+    margin-left: 50px;
+    margin-right: 50px;
+    line-height: 1.5;
+    text-align: justify;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#txtmerc h1 {
+    text-align: right;
+    font-size: 30px;
+    margin-bottom: 15px;
+    margin-top: 50px;
+    color: #00AEEE;
+}
+
+#txtmerc h2 {
+    text-align: right;
+    font-size: 20px;
+    margin-bottom: 15px;
+    color: black;
+}
+
+#mercado {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    height: 550px;
+    margin-top: 40px;
+    width: 100%;
+    
+}
+
+.video {
+    height: 500px;
+    width: 50%;
+    margin-top: 10px;
+    margin-left: 30px;
+}
+
+#txtcont h1 {
+    text-align: left;
+    font-size: 50px;
+    margin-left: 30px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    color: #00AEEE;
+}
+
+#txtcont h2 {
+    text-align: left;
+    font-size: 30px;
+    margin-left: 30px;
+    margin-bottom: 10px;
+    color: black;
+}
+
+#contato {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    height: 550px;
+    margin-top: 40px;
+    width: 100%;
+    
+}
+
+.imgcont {
+    height: 360px;
+    width: 360px;
+    margin-top: 10px;
+    margin-left: 30px;
+}
+
+.form {
+    position: relative;
+    width: min-content;
+    display: inline-block;
+    margin-left: 30px;
+    align-items: center;
+    justify-content: center;
+}
+
+#nom,
+#fon,
+#bai,
+#Cid,
+#ema,
+#est,
+#num,
+#ru {
+    min-width: 250px;
+    border-radius: 22px;
+    height: 15px;
+    padding: 5px;
+}
+
+.bten button {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    text-transform: uppercase;
+    font-style: normal;
+    text-decoration: none;
+    line-height: 20px;
+    letter-spacing: 0px;
+    background-color: #001aff6e;
+    border-radius: 5px 5px 5px 5px;
+    padding: 15px 30px 15px 30px;
+}
+
+.bten {
+    margin-top: 10px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+}

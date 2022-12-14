@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Talentus - RH Consultoria</title>
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="headerefooter.css">
+    <link rel="stylesheet" href="responsive.css">
+    <link rel="stylesheet" href="ancoras.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+    <header>
+        <div class="container">
+            <h1><img src="./img/logo.png" alt="Talentus - RH Consultoria"></h1>
+            <section class="menu-section">
+                <div class="container-menu">
+                    <nav>
+                        <ul class="menu">
+                            <li>
+                                <a href="#home">Home</a>
+                            </li>
+                            <li>
+                                <a href="#quemsomos">Sobre</a>
+                            </li>
+                            <li>
+                                <a href="#empresas">Empresas</a>
+                            </li>
+                            <li>
+                                <a href="#profissionais">Profissionais</a>
+                            </li>
+                            <li>
+                                <a href="#mercado">Mercado</a>
+                            </li>
+                            <li>
+                                <a href="#contato">Contato</a>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+            </section>
+        </div>
+    </header>
+    <main>
+        <section data-aos="fade-right" data-aos-duration="2000" id="home">
+            <div class="container">
+                <div class="column-left">
+                    <h2>Só projetos incríveis</h2>
+                    <p id="p-home">
+                        Entre em contato pelo formulário para mais sobre aplicações de excelência!
+                    </p>
+                    <a id="CTA-button" href="#contato">Comece agora!</a>
+                </div>
+                <picture id="home-image">
+                    <img src="img/img-home.png" alt="illustration">
+                </picture>
+            </div>
+        </section>
+
+        <div data-aos="fade-right" data-aos-duration="2000" id="quemsomos">
+
+            <img class="imgqs " src="./img/quemsomos.jpg " alt="imagem profissionais da empresa ">
+            <div id="txtqs">
+                <h1 class="tituloqs "> Quem somos</h1>
+                <h2 class="subqs ">Soluções em recrutamento, seleção e outplacement.</h2>
+
+                <p>A Talentus RH Consultoria é uma empresa 100% nacional atuando desde 2010 no mercado corporativo de serviços especializados em recrutamento, seleção e gestão de carreira. O nosso atendimento é ágil e objetivo.</p>
+                <div class="btqs ">
+                    <a href="#txtemp"> <button id="btempresa ">soluções para empresa</button></a>
+                    <a href="#txtprof"><button id="btprofissional ">soluções para profissionais</button></a>
+                </div>
+            </div>
+        </div>
+        <div data-aos="fade-right" data-aos-duration="2000" id="empresas">
+            <img class="imgemp" src="./img/selecao.gif" alt="soluçoes empresariais">
+            <div id="txtemp">
+                <h1 class="tituloemp ">Soluções Empresariais</h1>
+                <h2 class="subemp ">Recrutamento especializado, confidencial, acessível e ágil.</h2>
+
+                <p>O nosso atendimento é realizado com excelência. Nossa seleção é personalizada. Terceirizar lhe deixa focar em atividades mais relevantes. Temos o melhor no mercado de Recursos Humanos. </p>
+
+            </div>
+        </div>
+        <div data-aos="fade-right" data-aos-duration="2000" id="profissionais">
+            <img class="imgprof" src="./img/profissionais.jpg" alt="soluçoes para profissionais">
+            <div id="txtprof">
+                <h1 class="tituloprof "> Seja um de nossos profissionais</h1>
+                <h2 class="subprof ">Processos de recolocação profissional de forma objetiva, ágil e acessível aos profissionais.</h2>
+
+                <p>Somos certificados pelo Ministério do Trabalho na Lei 6019, o que nos permite ser um parceiro dos nossos clientes na realização de atividades na área de Recursos Humanos.</p>
+
+            </div>
+        </div>
+        <div data-aos="fade-right" data-aos-duration="2000" id="mercado">
+            <iframe class="video" width="709" height="399" src="https://www.youtube.com/embed/i7-WA6oREDU" title="MERCADO DE TRABALHO em 2022!" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <div id="txtmerc">
+                <h1 class="titulomerc "> O que o mercado espera de você?</h1>
+                <h2 class="submerc ">Principais tendencias do mercado</h2>
+
+                <p>Projetamos na sua realidade, seja você nosso cliente ou candidato a nosso profissional. Otimizamos tempo e trabalho e obecemos a LGPD, temos apoio jurídico, diminuindo risco de multas e processos.</p>
+
+            </div>
+        </div>
+        <div data-aos="fade-right" data-aos-duration="2000" id="contato">
+            <img class="imgcont" src="./img/contato.gif" alt="contato">
+            <div id="txtcont">
+                <h1 class="titulocont ">Contatos</h1>
+                <h2 class="subcont ">Faça contato, nós podemos ajudar... </h2>
+                <div class="form">
+                    <form action="">
+                        <div id="nome">
+                            <label>Nome</label>
+                            <input id="nom" name="nome" placeholder="Nome" type="text" />
+                        </div>
+                        <div id="fone">
+                            <label>Telefone</label>
+                            <input id="fon" name="telefone" placeholder="Telefone" type="text" />
+                        </div>
+                        <div id="email">
+                            <label>Email</label>
+                            <input id="ema" name="email" placeholder="Email" type="email" />
+                        </div>
+
+
+                        
+                    </form>
+                    <div class="bten ">
+                        <a href="#txten"> <button id="bten ">Enviar</button></a>
+
+                    </div>
+                </div>
+
+
+            </div>
+
+        </div>
+    </main>
+
+    <footer>
+        <img src="./img/logo.png" alt="Talentus - RH Consultoria">
+        <a href="https://pt-br.facebook.com/login/device-based/regular/login/" target="_blank"><img src="./img/face.png"></a>
+        <a href="https://www.instagram.com/accounts/login/" target="_blank"><img src="./img/insta.png"></a>
+        <a href="https://www.linkedin.com/login/pt" target="_blank"><img src="./img/linkedin.png"></a>
+        <a href="https://web.whatsapp.com/" target="_blank"><img src="./img/zap.png"></a>
+        <p class="copyright">&copy;Copyright Talentus - RH Consultoria - 2010</p>
+    </footer>
+
+    <script>AOS.init();</script>
+</body>

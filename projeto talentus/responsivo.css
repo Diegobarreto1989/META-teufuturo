@@ -1,0 +1,49 @@
+@media only screen and (max-width: 620px) {
+    .menu-button-container {
+        display: inline-block;
+    }
+
+    .menu {
+        position: absolute;
+        left: 0;
+        top: 0px;
+        flex-direction: column;
+        width: 100vw;
+        justify-content: center;
+        align-items: center;
+        transform: scaleX(0);
+    }
+    #home {
+        padding-top: 50px;
+        height: 100vh;
+        font-size: 10px;
+    }
+    
+    #quemsomos {
+        display: block;
+        padding-top: 40px;
+        height: 100vh;
+    }
+    
+    #empresas {
+        padding-top: 40px;
+        height: 100vh;
+    }
+    
+    #profissionais {
+        padding-top: 40px;
+        height: 100vh;
+    }
+    
+    #mercado {
+        padding-top: 40px;
+        height: 100vh;
+    }
+    
+    #contato {
+        height: 70vh;
+        padding-top: 60px;
+        padding-bottom: 20px;
+            
+    }
+}
